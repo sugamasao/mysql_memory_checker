@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "mysql_memory_checker"
+
+if ARGV[0].nil? || !File.file?(ARGV[0])
+  puts 'argument file not found.'
+  abort
+end
+
+MySQLMemoryChecker.run(ARGV[0])
