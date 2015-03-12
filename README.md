@@ -7,16 +7,12 @@ MySQLのメモリ使用量計算マン
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mysql_memory_checker'
+gem 'mysql_memory_checker', github: 'sugamasao/mysql_memory_checker'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install mysql_memory_checker
 
 ## Usage
 
