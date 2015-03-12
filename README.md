@@ -48,7 +48,6 @@ innodb_buffer_pool_size          :  128.00 MB (134217728 byte)
 innodb_log_buffer_size           :    8.00 MB (8388608 byte)
 net_buffer_length                :    0.02 MB (16384 byte)
 query_cache_size                 :    1.00 MB (1048576 byte)
-[total memory]
 --------------------
 *** total memory ***
 --------------------

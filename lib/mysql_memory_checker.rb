@@ -20,7 +20,6 @@ module MySQLMemoryChecker
     parser.global_memory_list.each do |key, value|
       puts output_format(key, value)
     end
-    puts '[total memory]'
     puts '-' * 20
     puts '*** total memory ***'
     puts '-' * 20
